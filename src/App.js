@@ -4,9 +4,9 @@ import bakeryData from "./assets/bakery-data.json";
 import BakeryItem from "./components/BakeryItem";
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
-bakeryData.forEach((item) => {
-  item.image = process.env.PUBLIC_URL + "/" + item.image;
-});
+// bakeryData.forEach((item) => {
+//   item.image = process.env.PUBLIC_URL + "/" + item.image;
+// });
 /* ############################################################## */
 
 function App() {

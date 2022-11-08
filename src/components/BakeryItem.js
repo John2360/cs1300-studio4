@@ -7,7 +7,7 @@ function BakeryItem(props) {
     return (
         <div className='BakeryItem'>
             <h2 className='title'>{item.name}</h2>
-            <img className='BakeryImage' src={"./react-studio/"+item.image} alt={item.name} />
+            <img className='BakeryImage' src={"./"+item.image} alt={item.name} />
             <p>{item.description}</p>
             <br></br>
             
